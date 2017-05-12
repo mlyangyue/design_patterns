@@ -16,5 +16,8 @@ proxy_pattern.py
 factory_method_pattern.py
 工厂方法模式(Factory Method Pattern):定义一个用于创建对象的接口,让子类决定实例化哪一个类,工厂方法使一个类的实例化延时到其子类.
 
-
+prototype_pattern.py
 原型模式(Prototype Pattern):用原型实例指定创建对象的种类,并且通过拷贝这些原型创建新的对象
+
+template_method_pattern.py
+模板方法模式(Template Method Pattern):定义一个操作中的算法骨架，将一些步骤延迟至子类中.模板方法使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤
