@@ -11,4 +11,10 @@ decorator_pattern.py
 装饰模式(Decorator Pattern):动态的给一个对象添加一些额外的职责,就增加功能来说,装饰模式比生成子类更为灵活.
 
 proxy_pattern.py
-代理模式(Proxy Pattern):为其他对象提供一种代理以控制对这个对象的访问
+代理模式(Proxy Pattern):为其他对象提供一种代理以控制对这个对象的访问.
+
+factory_method_pattern.py
+工厂方法模式(Factory Method Pattern):定义一个用于创建对象的接口,让子类决定实例化哪一个类,工厂方法使一个类的实例化延时到其子类.
+
+
+原型模式(Prototype Pattern):用原型实例指定创建对象的种类,并且通过拷贝这些原型创建新的对象
