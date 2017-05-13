@@ -26,4 +26,7 @@ facade_pattern.py
 外观模式(Facade Pattern):为子系统中的一组接口提供一个一致界面,此模式定义一个高层接口,使得子系统更加容易是用
 
 builder_pattern.py
-建造者模式(Builder):将一个复杂对象的构建与它的表示分离,使得同样的构建过程可以常见不同的表示
+建造者模式(Builder Pattern):将一个复杂对象的构建与它的表示分离,使得同样的构建过程可以常见不同的表示
+
+publish_subscribe_pattern.py
+观察者模式(发布-订阅模式 Publish Subscribe Pattern):定义了一种一对多的关系，让多个观察对象同时监听一个主题对象，当主题对象状态发生变化时会通知所有观察者,是它们能够自动更新自己
