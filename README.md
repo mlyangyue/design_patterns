@@ -21,3 +21,9 @@ prototype_pattern.py
 
 template_method_pattern.py
 模板方法模式(Template Method Pattern):定义一个操作中的算法骨架，将一些步骤延迟至子类中.模板方法使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤
+
+facade_pattern.py
+外观模式(Facade Pattern):为子系统中的一组接口提供一个一致界面,此模式定义一个高层接口,使得子系统更加容易是用
+
+builder_pattern.py
+建造者模式(Builder):将一个复杂对象的构建与它的表示分离,使得同样的构建过程可以常见不同的表示
