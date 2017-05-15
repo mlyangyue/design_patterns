@@ -38,4 +38,4 @@ state_pattern.py
 状态模式(State Pattern):当一个对象的内在状态改变时允许改变其行为，这个对象看起来像是改变了其类
 
 adapter_pattern.py
-适配器模式(Adapter):将一个类的接口转换成为客户希望的另外一个接口.
+适配器模式(Adapter Pattern):将一个类的接口转换成为客户希望的另外一个接口.
