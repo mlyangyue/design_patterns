@@ -30,3 +30,6 @@ builder_pattern.py
 
 publish_subscribe_pattern.py
 观察者模式(发布-订阅模式 Publish Subscribe Pattern):定义了一种一对多的关系，让多个观察对象同时监听一个主题对象，当主题对象状态发生变化时会通知所有观察者,是它们能够自动更新自己
+
+abstract_factory_pattern.py
+抽象工厂模式(Abstract Factory Pattern):提供一个创建一系列相关或相互依赖对象的接口，而无需指定它们的类
