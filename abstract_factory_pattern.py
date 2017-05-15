@@ -7,6 +7,7 @@ __author__ = 'Andy'
 设计模式——抽象工厂模式
 抽象工厂模式(Abstract Factory Pattern):提供一个创建一系列相关或相互依赖对象的接口，而无需指定它们的类
 """
+import sys
 
 #抽象用户表类
 class User(object):
@@ -90,8 +91,15 @@ class OrcalFactory(AbstractFactory):
 
 if __name__ == "__main__":
 
-	#选择Mysql
-	myfactory = MysqlFactory()
+	db = sys.argv[1]
+	myfactory = ''
+	if db == 'Mysql':
+		myfactory = MysqlFactory()
+	elif db == 'Orcal':
+		myfactory = OrcalFactory()
+	else:
+		print "不支持的数据库类型"
+		exit(0)
 	user = myfactory.create_user()
 	department = myfactory.create_department()
 	user.insert_user()
