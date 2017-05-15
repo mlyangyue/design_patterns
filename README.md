@@ -33,3 +33,6 @@ publish_subscribe_pattern.py
 
 abstract_factory_pattern.py
 抽象工厂模式(Abstract Factory Pattern):提供一个创建一系列相关或相互依赖对象的接口，而无需指定它们的类
+
+state_pattern.py
+状态模式(State):当一个对象的内在状态改变时允许改变其行为，这个对象看起来像是改变了其类
