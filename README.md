@@ -48,3 +48,6 @@ composite_pattern.py
 
 iterator_pattern.py
 迭代器模式(Iterator Pattern):提供方法顺序访问一个聚合对象中各元素，而又不暴露该对象的内部表示.
+
+singleton_pattern.py
+单例模式(Singleton Pattern):保证类仅有一个实例，并提供一个访问它的全局访问点.
