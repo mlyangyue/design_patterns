@@ -42,3 +42,6 @@ adapter_pattern.py
 
 memento_pattern.py
 备忘录模式(Memento Pattern):不破坏封装性的前提下捕获一个对象的内部状态，并在该对象之外保存这个状态,这样已经后就可将该对象恢复到原先保存的状态
+
+composite_pattern.py
+组合模式(Composite Pattern):将对象组合成成树形结构以表示“部分-整体”的层次结构,组合模式使得用户对单个对象和组合对象的使用具有一致性.
