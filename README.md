@@ -45,3 +45,6 @@ memento_pattern.py
 
 composite_pattern.py
 组合模式(Composite Pattern):将对象组合成成树形结构以表示“部分-整体”的层次结构,组合模式使得用户对单个对象和组合对象的使用具有一致性.
+
+iterator_pattern.py
+迭代器模式(Iterator Pattern):提供方法顺序访问一个聚合对象中各元素，而又不暴露该对象的内部表示.
