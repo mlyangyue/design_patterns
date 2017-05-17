@@ -57,3 +57,6 @@ bridge_pattern.py
 
 command_pattern.py
 命令模式(Command Pattern):将请求封装成对象，从而使可用不同的请求对客户进行参数化；对请求排队或记录请求日志，以及支持可撤消的操作.
+
+chain_of_responsibility.py
+职责链模式(Chain Of Responsibility):使多个对象都有机会处理请求，从而避免发送者和接收者的耦合关系。将对象连成链并沿着这条链传递请求直到被处理
