@@ -60,3 +60,6 @@ command_pattern.py
 
 chain_of_responsibility.py
 职责链模式(Chain Of Responsibility):使多个对象都有机会处理请求，从而避免发送者和接收者的耦合关系。将对象连成链并沿着这条链传递请求直到被处理
+
+mediator_pattern.py
+中介者模式(Mediator Pattern):用一个对象来封装一系列的对象交互，中介者使各对象不需要显示地相互引用，从而使耦合松散，而且可以独立地改变它们之间的交互.
