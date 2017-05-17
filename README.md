@@ -51,3 +51,6 @@ iterator_pattern.py
 
 singleton_pattern.py
 单例模式(Singleton Pattern):保证类仅有一个实例，并提供一个访问它的全局访问点.
+
+bridge_pattern.py
+桥接模式(Bridge Pattern):将抽象部分与它的实现部分分离，使它们都可以独立地变化.
