@@ -54,3 +54,6 @@ singleton_pattern.py
 
 bridge_pattern.py
 桥接模式(Bridge Pattern):将抽象部分与它的实现部分分离，使它们都可以独立地变化.
+
+command_pattern.py
+命令模式(Command Pattern):将请求封装成对象，从而使可用不同的请求对客户进行参数化；对请求排队或记录请求日志，以及支持可撤消的操作.
