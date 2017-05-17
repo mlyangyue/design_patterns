@@ -63,3 +63,9 @@ chain_of_responsibility.py
 
 mediator_pattern.py
 中介者模式(Mediator Pattern):用一个对象来封装一系列的对象交互，中介者使各对象不需要显示地相互引用，从而使耦合松散，而且可以独立地改变它们之间的交互.
+
+flyweight_pattern.py
+享元模式(Flyweight Pattern):运用共享技术有效地支持大量细粒度的对象.
+
+interpreter_pattern.py
+解释器模式(Interpreter Pattern):给定一个语言，定义它的文法的一种表示，并定义一个解释器，这个解释器使用该表示来解释语言中的句子.
