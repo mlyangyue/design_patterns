@@ -69,3 +69,6 @@ flyweight_pattern.py
 
 interpreter_pattern.py
 解释器模式(Interpreter Pattern):给定一个语言，定义它的文法的一种表示，并定义一个解释器，这个解释器使用该表示来解释语言中的句子.
+
+visitor_pattern.py
+访问者模式(Visitor Pattern):表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作
